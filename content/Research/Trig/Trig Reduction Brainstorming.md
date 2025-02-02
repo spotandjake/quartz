@@ -1,8 +1,10 @@
 ---
 publish: "true"
+tags:
+  - programming
+  - math
+  - trig
 ---
-#Programming #math #trig
-
 This notes contains research I was doing on computing trigonometric functions for large values, the general idea was that as `sin` repeats over a period we could look for a fixed integer approximation of $n\pi$ and do a simple reduction of $sin(x) = sin(x-n\pi)$ in order to use more traditional techniques, the outcome of this research looked somewhat promising, the technique itself is valid however the integer given by $n\pi$ grows quickly which means that for this to be practical you would need a special way of storing the number in a more compressed form, this is all possible but I was working on other projects so I did not have time to build a program to search for these approximations and test them while looking into the storage optimization. The notes below are were written well researching and have not had much polish.
 # Generation 1
 This is a fascinating idea! You're essentially proposing to leverage a very precise rational approximation of π/2 (represented as c/n where c and n are integers) to perform argument reduction using integer arithmetic. This could potentially lead to faster and more accurate trigonometric calculations, particularly on systems where floating-point operations are expensive or undesirable.

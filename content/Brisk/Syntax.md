@@ -1,8 +1,11 @@
 ---
 publish: "true"
+tags:
+  - brisk
+  - active
+  - programming
+  - compilation
 ---
-
-#brisk #active 
 This document mostly contains a basic overview showing some possible syntax for Brisk, this is a work in progress and more meant to give an idea on what the language will look like and is by no means complete, the first week of the course will focus on solidifying and writing out a proper grammar.
 
 For reference or to get a feel for the language the [grain docs](https://grain-lang.org/docs/guide/basics) are a good reference as the syntax is very similar, brisk mostly tries to fix semantic problems with grain and take a different approach to type checking that allows for more clear programs, along with a completely ground up compiler architecture. 

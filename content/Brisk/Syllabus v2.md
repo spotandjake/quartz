@@ -1,8 +1,11 @@
 ---
 publish: "true"
+tags:
+  - brisk
+  - active
+  - programming
+  - compilation
 ---
-
-#brisk #active 
 ## Description:
 In the world of software compilers are the primary tool used by developers to transform their high level code into low level machine code. This course intends to reveal the inner workings and make source code less magic allowing students to understand why programming languages work they do and the challenges involved in designing new languages. This course challenges students to look beyond the source code by designing a language of their own creation and implementation a compiler from scratch to convert from words in a text file to runnable machine code that can accomplish everyday tasks.
 

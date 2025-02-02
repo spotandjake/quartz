@@ -1,18 +1,4 @@
-# Quartz v4
+# Quartz
+Hosting for my digitial knowledge base: https://spotandjake.github.io/quartz/
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
-
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+This repo handles the hosting for my open knowledge garden. I write all of my notes in markdown using [Obsidian](https://obsidian.md/) in a private repo, when I make a commit all of my published notes are copied over to the `./content/` directory in this repo by a github action and deployed to [Github Pages](https://spotandjake.github.io/quartz/) using [quartz](https://github.com/jackyzha0/quartz)

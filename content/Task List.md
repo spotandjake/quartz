@@ -3,7 +3,7 @@ publish: "true"
 ---
 This is my active task list along with the current state of my tasks.
 ## Active Projects
-* Snow | | In Progress (<font color="#c0504d">High Priority</font>)
+* Snow |  In Progress (<font color="#c0504d">High Priority</font>)
 	* Need to finish off base language
 * Brisk | In Progress (<font color="#c0504d">High Priority</font>)
 	* Waiting for BP response

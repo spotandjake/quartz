@@ -9,6 +9,12 @@ This is my active task list along with the current state of my tasks.
 	* Waiting for BP response
 * Grain | Long Term (<font color="#4bacc6">Medium Priority</font>)
 	* Ongoing work
+	* TODO
+		* Pattern Matching PR (Address Feedback)
+		* MultiDocs (use Collections)
+		* Vendor pkg stuff for node upgrade
+		* Dedupe imports (Handle this in compcore)
+		* JS Ocaml Upgrade (Solve Windows)
 * New Grain-Wasm (Grain) | Already Started (<font color="#4bacc6">Medium Priority</font>)
 	* built of my stream library.
 

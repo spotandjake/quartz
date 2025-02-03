@@ -15,6 +15,7 @@ This is my active task list along with the current state of my tasks.
 		* Vendor pkg stuff for node upgrade
 		* Dedupe imports (Handle this in compcore)
 		* JS Ocaml Upgrade (Solve Windows)
+		* Convert grainWeb talk into a blog post
 * New Grain-Wasm (Grain) | Already Started (<font color="#4bacc6">Medium Priority</font>)
 	* built of my stream library.
 

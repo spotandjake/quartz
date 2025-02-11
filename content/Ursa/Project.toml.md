@@ -50,6 +50,7 @@ Future Opportunities:
 	* Wouldn't be too hard to build a tui or gui for configs
 	* Wouldn't be too hard to give to an llm for generation
 * Scanning for deps with an llm + combined failure catching?
+* language level package management
 
 CI Integrations:
 * Task named test, will run on ci

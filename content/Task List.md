@@ -17,6 +17,8 @@ This is my active task list along with the current state of my tasks.
 		* Convert grainWeb talk into a blog post
 * New Grain-Wasm (Grain) | Already Started (<font color="#4bacc6">Medium Priority</font>)
 	* built of my stream library.
+	* Using specTec repo to generate it.
+		* Approach is to have specTec output json which we can then process from grain.
 
 ## Back Burner
 Archived projects for when I need something to work on: 

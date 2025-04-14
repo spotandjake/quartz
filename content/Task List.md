@@ -6,7 +6,6 @@ This is my active task list along with the current state of my tasks.
 * Obsidian-Vault (<font color="#4bacc6">Medium Priority</font>)
 	* Rewrite a simplified quartz
 	* Design webpage
-	* Organize vault
 	* write more blog posts
 	* autoposting
 	* Rewrite Hosting

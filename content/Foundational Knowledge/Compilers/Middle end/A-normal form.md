@@ -17,8 +17,6 @@ $arg0 := 3 * 4
 $arg1 := set(5)
 get($arg0, $arg1)
 ```
-This transformation is rather trivial to do it is essentially just go down your AST and when ever you hit something non trivial so an argument that doesn't follow the rules convert it into a bind in a `setup` for the function otherwise leave it, and then return the `setup` and `bind`.
-
 This transformation is relatively straightforward. You recursively walk your AST, and whenever you encounter a non-trivial expression in a position that expects a trivial one (like a function argument), you extract it into a temporary variable (a `bind`) an ANF expression might look like `(list(bind), triv_expr)`, this can also be done through an expression stack.
 
 ## Purpose

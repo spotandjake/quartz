@@ -3,7 +3,7 @@ publish: "true"
 ---
 This is my active task list along with the current state of my tasks.
 ## Active Projects
-* Obsidian-Vault (<font color="#4bacc6">Medium Priority</font>)
+* Siligen (<font color="#4bacc6">Medium Priority</font>)
 	* Rewrite a simplified quartz
 	* Design webpage
 	* write more blog posts

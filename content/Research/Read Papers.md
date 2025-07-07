@@ -16,3 +16,17 @@ The start of the course has the students working individually on a compiler for 
 * Date: 2025-02-01
 
 This paper is a tutorial on building a tiny scheme compiler, it proposes an incremental approach over staged a staged approach for writing compilers to bridge the gap between toy and production grade compilers.
+
+## The Simple Essence of Algebraic Subtyping
+* Link: https://infoscience.epfl.ch/server/api/core/bitstreams/afe084e0-0050-4542-99c7-c499d2fe1620/content
+* Topics: Typechecking
+* Date: 
+
+I honestly need a refresh on this because its been a while since I read it but it is one of my favourite papers on typechecking do to its intuitive approach and defintion.
+
+## Typing the Numeric Tower
+* Link: https://users.cs.northwestern.edu/~stamourv/papers/numeric-tower.pdf
+* Topics: Type checking, Numerics
+* Date: 2025-05-11
+
+This paper is describes the number system of typed racket, which allows for type safe and intuitive arithmetic between different number types a common challenge in many programming languages. The implementation uses union types with subtyping and a predefined tower to maintain strong static guarantees without runtime checks.

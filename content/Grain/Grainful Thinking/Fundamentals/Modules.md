@@ -14,7 +14,7 @@ print("Hello World 🌾")
 A module is similar to a _namespace_ in other languages: it’s a static container for your code that helps you organize functionality into clean, logical units.
 
 Modules, in grain serve many purposes:
-* Naming - A module provides a fixed name (here `Main`). That name is used throughout the language to refer to the code inside it.
+* Naming - A module provides a fixed name that starts with a capital letter (here `Main`). That name is used throughout the language to refer to the code inside.
 * Organization - Modules let you structure your program into smaller, well-defined units instead of having everything exist within a global scope or file. Think namespaces in other languages.
 * Abstraction - Modules serve as a simple layer of abstraction, letting you keep certain things private and provide exports to other modules.
 
@@ -77,7 +77,7 @@ module Example {
 let a: Example.A = void
 ```
 
-[More on Types](./Types)
+[More on Types](Types.md)
 #### Providing Exceptions
 ```gr
 module Main
@@ -89,7 +89,7 @@ module Example {
 throw Example.Failure("Fail")
 ```
 
-[More on Exceptions](./DataTypes/Advanced#Exceptions)
+[More on Exceptions](Advanced.md#Exceptions)
 #### Providing Submodules
 ```gr
 module Main

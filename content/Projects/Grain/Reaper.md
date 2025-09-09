@@ -7,7 +7,7 @@ tags:
 ## Description
 * Source: https://github.com/spotandjake/Reaper
 
-A basic argument parsing library for [[Grain]] inspired by the extremely popular [minimist](https://www.npmjs.com/package/minimist) parser from the Node.js ecosystem.
+A basic argument parsing library for [[Projects/Grain/Grain]] inspired by the extremely popular [minimist](https://www.npmjs.com/package/minimist) parser from the Node.js ecosystem.
 
 ## Usage
 

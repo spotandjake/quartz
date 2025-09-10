@@ -1,9 +1,32 @@
 ---
 publish: "true"
+date: 2025-09-09
 ---
 This is my active task list along with the current state of my tasks.
 ## Active Projects
-* Siligen (<font color="#4bacc6">Medium Priority</font>)
+* Snow |  Blocked (<font color="#c0504d">High Priority</font>)
+	* Need to finish off base language
+	* Waiting for wit-bindgen updates
+* Brisk | In Progress (<font color="#c0504d">High Priority</font>)
+* Grain | Long Term (<font color="#4bacc6">Medium Priority</font>)
+	* Ongoing work
+	* TODO
+		* Pattern Matching PR | Blocked
+			* Need to refactor after wasm gc
+		* MultiDocs (use Collections)
+			* Need to refactor
+		* JS Ocaml Upgrade | Blocked
+			* Waiting On Libbinaryen and binaryen.ml
+		* Convert grainWeb talk into a blog post | Waiting for 0.7
+		* Component work
+			* wit bindgen
+			* component wrapping
+			* import component wrapping
+* New Grain-Wasm (Grain) | Already Started (<font color="#4bacc6">Medium Priority</font>)
+	* built of my stream library.
+	* Using specTec repo to generate it.
+		* Approach is to have specTec output json which we can then process from grain.
+* Siligen (<font color="#8064a2">Low Priority</font>)
 	* Rewrite a simplified quartz
 	* Design webpage
 	* write more blog posts
@@ -20,32 +43,7 @@ This is my active task list along with the current state of my tasks.
 		* Toggle Publish
 		* Preview
 		* Blog
-* Resume Generator | Need to start (<font color="#c0504d">High Priority</font>)
-* Snow |  Blocked (<font color="#c0504d">High Priority</font>)
-	* Need to finish off base language
-	* Waiting on Grain 0.7 release
-* Brisk | In Progress (<font color="#c0504d">High Priority</font>)
-	* Waiting for BP response
-* Grain | Long Term (<font color="#4bacc6">Medium Priority</font>)
-	* Ongoing work
-	* TODO
-		* Pattern Matching PR | Blocked
-			* Need to refactor after wasm gc
-		* MultiDocs (use Collections)
-			* Need to refactor
-		* Vendor pkg stuff for node upgrade | Blocked
-			* Waiting on oscar todo the fork steps
-		* JS Ocaml Upgrade | Blocked
-			* Waiting On Libbinaryen and binaryen.ml
-		* Convert grainWeb talk into a blog post | Waiting for 0.7
-		* Component work
-			* wit bindgen
-			* component wrapping
-			* import component wrapping
-* New Grain-Wasm (Grain) | Already Started (<font color="#4bacc6">Medium Priority</font>)
-	* built of my stream library.
-	* Using specTec repo to generate it.
-		* Approach is to have specTec output json which we can then process from grain.
+* Resume Generator | Need to start (<font color="#8064a2">Low Priority</font>)
 
 ## Back Burner
 Archived projects for when I need something to work on: 

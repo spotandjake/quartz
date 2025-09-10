@@ -23,7 +23,7 @@ type Task<d, c> {
 }
 ```
 
-This seems to be a completely novel idea for static based task systems as a compiler. As can be seen above while the solution I propose isn't perfect yet questions about `predicate` and `notFalse` (which I think can just be another visitor), we should be able to convert this to a compile time static graph anaylze it and generate a rather optimal task execution system without doing that I think at runtime we can just run this and get free scheudling and many benefits of advanced compilers like incremental compilation.
+This seems to be a completely novel idea for static based task systems as a compiler. As can be seen above while the solution I propose isn't perfect yet questions about `predicate` and `notFalse` (which I think can just be another visitor), we should be able to convert this to a compile time static graph analyze it and generate a rather optimal task execution system without doing that I think at runtime we can just run this and get free scheduling and many benefits of advanced compilers like incremental compilation.
 
 
 ## TODO

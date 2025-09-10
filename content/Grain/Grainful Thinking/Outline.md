@@ -17,10 +17,8 @@ There’s no strict start or end to these docs. Concepts are generally introduce
 
 ## Outline
 1. Fundamentals
-	1. [Modules](Modules.md)
-	2. Conditionals
-		1. If Statements
-		2. Match Statements
+	1. [Modules](./Fundamentals/Modules.md)
+	2. [Conditionals](./Fundamentals/Conditionals)
 	3. Definitions
 		1. let
 		2. from

@@ -19,11 +19,7 @@ There’s no strict start or end to these docs. Concepts are generally introduce
 1. Fundamentals
 	1. [Modules](./Fundamentals/Modules.md)
 	2. [Conditionals](./Fundamentals/Conditionals)
-	3. Definitions
-		1. let
-		2. from
-		3. recursion
-		4. Shadowing
+	3. [Definitions](Definitions.md)
 	4. Functions
 	5. Looping
 	6. Mutation

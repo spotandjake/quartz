@@ -12,6 +12,9 @@ Just some slightly cooler things that I worked on the past two week:
  * In [#2350](https://github.com/grain-lang/grain/pull/2350) I fixed a bug where programs like `test(A.VariantA, VariantB)` would compile even though `VariantB` is module `A` as well.
 	* What was happening here was if the type definition was something like `test: (a, a) => b` when we went to check the type of the second parameter we checked it against the expected resolved type of `a`. The main use case of this functionality is when working with records it helps to disambiguate which module the record comes from, however in this case it was creating a bug (this is actually expected ocaml behaviour). In order to fix this I avoid the type based lookup in the cases of constructors which also solves a very similar issue when it comes to pattern matching.
 	* This pr is a breaking change so we won't merge this until 0.8
+* In [#2355](https://github.com/grain-lang/grain/pull/2355) I made a fix to how we handle exhaustive checks on when patterns combined with inline record constructors which closes [#2311](https://github.com/grain-lang/grain/issues/2311).
+	* The issue was in our `Conv` module we were not handling `Any` patterns correctly generated from exhaust when its an inline record which causes a different error to get raised and then ignored preventing the proper exhaustive checks. I think the `Conv` logic we currently use seems a bit fragile so we may want to consider improving that eventually, probably as part of thresher. 
+	* This pr is waiting on reviews, but hopefully can be merged before 0.7.1.
 
 ## General
 These are some more general things I worked on that probably are not as important:

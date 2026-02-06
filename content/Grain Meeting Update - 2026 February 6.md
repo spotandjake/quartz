@@ -35,9 +35,6 @@ These are some more general things I worked on that probably are not as importan
 I also have a few questions on some existing issues that I wanted to ask to see if we could make some decisions.
 * [#45 Webpack plugin](https://github.com/grain-lang/grain/issues/45)
 	* I was thinking that we should close this issue as out of scope given we removed the js-runner so there wouldn't really be anything special about this, it seems like something the community would be better to support or we would be better to support in it's own repo.
-	* How we could support users a bit here.
-		* We've gotten a few questions about if we support the compiler in the browser, I was wondering if it may make sense to provide a small programatic api and version of the compiler we publish to npm.
-		* Currently when people ask about browser support we say that it works but we don't really support it as a team or provide help with implementing the playground elsewhere however if we provided a package we could support our own playground and others. It probably wouldn't be overly difficult to handle this either. 
 * [#238 Grain emacs](https://github.com/grain-lang/grain/issues/238)
 	* Can we transfer the issue for grain emacs to the language-server-repo as support for this would just require creating an editor plugin now that the lsp is separate.
 * [#182 rename grain-langauge-server](https://github.com/grain-lang/grain-language-server/issues/182)

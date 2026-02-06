@@ -53,7 +53,3 @@ provide let withIndex = (fn: (a, Number) => b) => {
   }
 }
 ```
-
-
-## Community
-Did anyone take a look at the test framework that was posted in `#look-what-built` it looks pretty cool, we should reach out about about adding it to `awesome-grain`.

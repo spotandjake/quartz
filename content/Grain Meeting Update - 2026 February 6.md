@@ -33,7 +33,6 @@ These are some more general things I worked on that probably are not as importan
 
 ## Questions 
 I also have a few questions on some existing issues that I wanted to ask to see if we could make some decisions.
-
 * [#45 Webpack plugin](https://github.com/grain-lang/grain/issues/45)
 	* I was thinking that we should close this issue as out of scope given we removed the js-runner so there wouldn't really be anything special about this, it seems like something the community would be better to support or we would be better to support in it's own repo.
 	* How we could support users a bit here.
@@ -57,3 +56,7 @@ provide let withIndex = (fn: (a, Number) => b) => {
   }
 }
 ```
+
+
+## Community
+Did anyone take a look at the test framework that was posted in `#look-what-built` it looks pretty cool, we should reach out about about adding it to `awesome-grain`.

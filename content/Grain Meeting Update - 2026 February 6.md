@@ -15,6 +15,8 @@ Just some slightly cooler things that I worked on the past two week:
 * In [#2355](https://github.com/grain-lang/grain/pull/2355) I made a fix to how we handle exhaustive checks on when patterns combined with inline record constructors which closes [#2311](https://github.com/grain-lang/grain/issues/2311).
 	* The issue was in our `Conv` module we were not handling `Any` patterns correctly generated from exhaust when its an inline record which causes a different error to get raised and then ignored preventing the proper exhaustive checks. I think the `Conv` logic we currently use seems a bit fragile so we may want to consider improving that eventually, probably as part of thresher. 
 	* This pr is waiting on reviews, but hopefully can be merged before 0.7.1.
+* In [#2356](https://github.com/grain-lang/grain/pull/2356) I implemented a code action to add graindoc on let binds and submodules which closes [#2301](https://github.com/grain-lang/grain/issues/2301)
+	* This pr isn't quite ready to be merged as it still needs tests though I was hoping I could get some reviews before I add those to make sure the feature works as we would like and get feedback on the implementation. 
 
 ## General
 These are some more general things I worked on that probably are not as important:

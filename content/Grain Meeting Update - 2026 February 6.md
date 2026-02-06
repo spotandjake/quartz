@@ -28,7 +28,7 @@ These are some more general things I worked on that probably are not as importan
 * In [#2349](https://github.com/grain-lang/grain/pull/2349) I continued playing around with some code cleanup throughout the compiler.
 	* I've noticed that a lot of failures in the lsp and uncaught excceptions in the compiler come from exceptions such as `NOT_FOUND`, I started refactoring the compiler to make better use of options and results so these errors don't bubble up and we properly handle cases where possible.
 	* I'm not quite done but before I continued this work I wanted to get other people's thoughts on this change. This probably also makes the most sense to merge after we get the gc stuff through.
-		* This work did get me thinking a little about how we could make identifiers safer as well. This would be a rather large change but it would be nice if we only passed around `IdentIDs` in our ast and kept a pool of identifiers this way if you have an `IdentID` we know that the `Identifier` exists in the env.
+		* Sidenote: This work did get me thinking a little about how we could make identifiers safer as well. This would be a rather large change but it would be nice if we only passed around `IdentIDs` in our ast and kept a pool of identifiers this way if you have an `IdentID` we know that the `Identifier` exists in the env.
 * I did a performance test on [#2280](https://github.com/grain-lang/grain/pull/2280) and it seems like the caching is beneficial so that pr should be good to merge. 
 
 ## Questions 
